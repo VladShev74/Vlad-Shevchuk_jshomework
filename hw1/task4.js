@@ -4,7 +4,7 @@ let message = prompt("Яку кількість дроїдів, ви хочет�
 let totalPrice = message * pricePerDroid;
 let balance = credits - totalPrice;
 
-if (credits>totalPrice, message > null) {
+if (credits>totalPrice) {
     alert(`Ви купили ${message} дроїдів, на рахунку залишилося ${balance} кредитів.`);
 } else if (message === null){
     alert('Cкасовано користувачем');

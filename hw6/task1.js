@@ -6,12 +6,11 @@ const user = {
 };
 
 user.mood = 'happy';
-user['hobby'] = 'skydiving';
-user['premium'] = false;
+user.hobby = 'skydiving';
+user.premium = false;
 console.log(user);
 
 const keys = Object.keys(user);
-const values = Object.values(user);
 
 for (let key of keys) {
     console.log(`${key}: ${user[key]}`);

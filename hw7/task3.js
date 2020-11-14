@@ -3,7 +3,7 @@ const findBestEmployee = function (employees) {
     let theMostProductive = '';
     for (const key in employees) {
         if (employees[key] > totalTasksDone) {
-            totalTasksDone += employees[key];
+            totalTasksDone = employees[key];
             theMostProductive = key;
         }
     }

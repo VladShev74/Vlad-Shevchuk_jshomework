@@ -307,7 +307,7 @@ ul {
  border: 2px solid #b0abb2;
  height: 55px;
  width: 55px;
- background-image: url(/assets/twiter.png);
+ background-image: url(../assets/twiter.png);
  float: left;
  margin-top: 16px;
  background-size: cover;
